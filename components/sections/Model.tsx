@@ -28,7 +28,7 @@ const steps = [
 export default function Model() {
   return (
     <section className="relative py-24 bg-[#0F1A0A]">
-      <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80')] bg-cover bg-center mix-blend-overlay" />
+      <div className="absolute inset-0 opacity-5 bg-[url('/Cultivated land(1).jpg')] bg-cover bg-center mix-blend-overlay" />
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         

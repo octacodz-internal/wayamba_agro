@@ -11,6 +11,7 @@ import Pillars from "@/components/sections/Pillars";
 import Portfolio from "@/components/sections/Portfolio";
 import Model from "@/components/sections/Model";
 import WhyUs from "@/components/sections/WhyUs";
+import Leadership from "@/components/sections/Leadership";
 import Gallery from "@/components/sections/Gallery";
 import CTA from "@/components/sections/CTA";
 
@@ -32,6 +33,7 @@ export default function Home() {
             <Portfolio />
             <Model />
             <WhyUs />
+            <Leadership />
             <Gallery />
             <CTA />
           </main>

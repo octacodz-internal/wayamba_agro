@@ -43,11 +43,11 @@ export default function Footer() {
               <ul className="space-y-3 font-[family-name:var(--font-dm-sans)] text-gray-400 text-sm">
                  <li className="flex gap-3">
                    <span className="text-emerald-400 mt-0.5">📍</span>
-                   Wayamba Province, Sri Lanka
+                   No.171/1, Kurunegala Road, Nikaweratiya
                  </li>
                  <li className="flex gap-3">
                    <span className="text-emerald-400 mt-0.5">📞</span>
-                   +94 XX XXX XXXX
+                   +94 77 985 5441
                  </li>
                  <li className="flex gap-3">
                    <span className="text-emerald-400 mt-0.5">✉️</span>
@@ -59,28 +59,29 @@ export default function Footer() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-             <p className="font-[family-name:var(--font-dm-sans)] text-xs text-gray-500">
+          <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+             <p className="font-[family-name:var(--font-dm-sans)] text-xs text-[#64748b]">
                © {currentYear} Wayamba Corporation (PVT) LTD. All rights reserved.
              </p>
-             <p className="font-[family-name:var(--font-dm-sans)] text-xs text-gray-500 flex items-center gap-1">
-               Made with <span className="text-emerald-500">♡</span> in Sri Lanka
-             </p>
+             <div className="flex gap-4 font-[family-name:var(--font-dm-sans)] text-xs text-[#64748b]">
+               <a href="#" className="hover:text-white transition-colors">Privacy</a>
+               <a href="#" className="hover:text-white transition-colors">Terms</a>
+             </div>
           </div>
 
         </div>
       </footer>
 
       {/* Developer Branding */}
-      <div className="bg-black py-6">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-center gap-4 text-[11px] font-[family-name:var(--font-dm-sans)] tracking-tight">
-          <div className="flex items-center gap-1.5 text-gray-400">
+      <div className="bg-[#020617] py-4">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-center gap-2 text-[11px] font-[family-name:var(--font-dm-sans)] tracking-wide">
+          <div className="flex items-center gap-1 text-[#475569]">
             <span>Developed by</span>
             <a 
               href="https://octacodz.com" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-white hover:text-emerald-400 transition-colors flex items-center gap-1"
+              className="hover:text-[#94a3b8] transition-colors flex items-center gap-1"
             >
               OctaCodez
               <svg 
@@ -89,10 +90,9 @@ export default function Footer() {
                 viewBox="0 0 24 24" 
                 fill="none" 
                 stroke="currentColor" 
-                strokeWidth="2.5" 
+                strokeWidth="2" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 
-                className="opacity-60"
               >
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                 <polyline points="15 3 21 3 21 9"></polyline>
@@ -100,10 +100,10 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <span className="text-gray-800 text-sm">|</span>
+          <span className="text-[#334155] mx-1">|</span>
           <a 
             href="mailto:hello@octacodz.com" 
-            className="text-gray-400 hover:text-emerald-400 transition-all duration-300"
+            className="text-[#475569] hover:text-[#94a3b8] transition-colors"
           >
             hello@octacodz.com
           </a>
